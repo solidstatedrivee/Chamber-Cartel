@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="1900" height="1200" version="1.1" viewBox="0 0 502.71 317.5" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient5670" x1="503.54" x2="-1.5931" y1="-21.051" y2="295.93" gradientTransform="matrix(1.0005 0 0 1.0016 1.5125 .66087)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0a100d" offset="0"/>
+   <stop stop-color="#902923" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0 20.5)">
+  <path d="m505.3-20.423s-159.09 146.73-346.93 54.786c-99.578-48.74-158.45 86.47-158.45 86.47v176.23h507.52z" fill="url(#linearGradient5670)" stroke-width="0"/>
+ </g>
+</svg>
