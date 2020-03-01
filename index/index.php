@@ -71,7 +71,7 @@
         <li><a href="#landing">Home</a></li>
         <li><a href="news.html" target="_blank">News</a></li>
         <li><a href="#lineup">Cartel</a></li>
-        <li><a href="#donate">Support</a></li>
+        <!-- <li><a href="#donate">Support</a></li> -->
         <li><a href="#music">Media</a></li>
         <li><a href="#contactUs">Contact</a></li>
 
