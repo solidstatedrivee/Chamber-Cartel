@@ -1,6 +1,6 @@
     // COLOR SCHEME
     $darkGrey: rgb(10, 16, 13);
-    $lightGrey: rgb(185, 186, 163);
+    $lightGrey: hsl(63, 14%, 68%);
     $lighterGrey: #d6d5c9;
     $red: rgb(162, 44, 41);
     $accent: rgb(243, 181, 12);
@@ -1606,29 +1606,35 @@
             // top: 5%;
         }
         .contactUsContentContainer {
-            display: flex;
+            // display: flex;
             // border: $devBorder;
-            justify-content: space-around;
+            // justify-content: space-around;
             // padding: 20px;
             padding-bottom: 100px;
-            width: 90%;
+            width: 77%;
             height: 100%;
             margin: 0 auto;
             // height: 75%;
             .info {
                 // border: $devBorder;
-                padding: 0 50px;
+                box-shadow: $lightGrey 0 0 2px 2px, hsl(63, 14%, 83%) -4px -4px 8px, hsl(63, 14%, 53%) 4px 4px 8px;
+                padding: 25px 50px;
                 border-radius: 10px;
-                background: rgba(243, 181, 12, 0.25);
+                // border: $darkGrey;
+                background: $lightGrey;
                 font-family: $sansSerif;
+                margin-top: 25px;
                 // padding: 25px;
                 h3 {
                     // border: $devBorder;
-                    font-family: $serif;
-                    padding-bottom: 20px;
+                    font-family: $sansSerif;
+                    // padding: 0 20px;
+                    position: relative;
+                    // left: 5%;
+                    // padding-bottom: 20px;
                     font-size: 3em;
                     color: $red;
-                    text-align: center;
+                    // text-align: center;
                 }
                 address {
                     // border: $devBorder;
@@ -1676,6 +1682,16 @@
                 }
                 a:hover {
                     color: $darkGrey;
+                }
+                .infoContent {
+                    // border: $devBorder;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    address {
+                        // border: $devBorder;
+                        margin-right: 20px;
+                    }
                 }
             }
             .forms {
@@ -2078,14 +2094,14 @@
                 margin-bottom: 100px !important;
             }
         }
-        .contactUsContentContainer {
-            flex-direction: column !important;
-            .info {
-                width: 50%;
-                margin: 0 auto;
-                margin-bottom: 50px;
-            }
-        }
+        // .contactUsContentContainer {
+        //     flex-direction: column !important;
+        //     .info {
+        //         width: 50%;
+        //         margin: 0 auto;
+        //         margin-bottom: 50px;
+        //     }
+        // }
         .donateTitle {
             font-size: 1.5em !important;
         }
@@ -2385,6 +2401,19 @@
                     display: inline-block;
                 }
             }
+        }
+        .info {
+            // border: $devBorder;
+            width: 75%;
+            margin: 0 auto;
+            h3 {
+                text-align: center;
+            }
+        }
+        .infoContent {
+            // border: $devBorder;
+            flex-direction: column;
+            // align-items: center;
         }
     }
     

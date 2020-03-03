@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya+SC|Cinzel+Decorative|Roboto+Condensed&display=swap");
 body {
   overflow-x: hidden;
-  background: #b9baa3;
+  background: #b8b9a2;
   opacity: 0;
   transition: opacity 500ms linear;
 }
@@ -73,7 +73,7 @@ body {
   text-decoration: none;
 }
 .landing .mobileNavContent ul li .mobileNavContentActiveItem {
-  color: #b9baa3 !important;
+  color: #b8b9a2 !important;
 }
 .landing .landingNav {
   position: relative;
@@ -133,7 +133,7 @@ body {
   align-items: center;
 }
 .landing .fixedNav .fixedNavContainer .fixedNavGroupName {
-  color: #b9baa3;
+  color: #b8b9a2;
 }
 .landing .fixedNav .fixedNavContainer .fixedNavGroupName h3 {
   font-family: "Cinzel Decorative", serif;
@@ -154,7 +154,7 @@ body {
 }
 .landing .fixedNav .fixedNavContainer .fixedNavLinks ul a {
   text-decoration: none;
-  color: #b9baa3;
+  color: #b8b9a2;
   transition: all 250ms ease;
   display: inline-block;
 }
@@ -203,7 +203,7 @@ body {
   padding-top: 10%;
 }
 .landing .displayHeaderContainer .listenDonate {
-  color: #b9baa3;
+  color: #b8b9a2;
   position: relative;
   z-index: 100;
   display: flex;
@@ -212,7 +212,7 @@ body {
   font-size: 1.5em;
 }
 .landing .displayHeaderContainer .listenDonate .listenDonateLinks {
-  border: 1px solid #b9baa3;
+  border: 1px solid #b8b9a2;
   padding: 1%;
   margin: 0 1%;
   border-radius: 10px;
@@ -220,7 +220,7 @@ body {
   cursor: pointer;
 }
 .landing .displayHeaderContainer .listenDonate .listenDonateLinks:hover {
-  background: #b9baa3;
+  background: #b8b9a2;
   color: #902923;
   border: 1px solid transparent;
 }
@@ -234,7 +234,7 @@ body {
 .landing .headerSocialMedia .fab {
   font-size: 2em;
   padding: 10px;
-  color: #b9baa3;
+  color: #b8b9a2;
   width: 75px;
   height: 75px;
   text-align: center;
@@ -331,7 +331,7 @@ body {
 }
 .bio .bioCopy h2 {
   font-family: "Alegreya SC", serif;
-  color: #b9baa3;
+  color: #b8b9a2;
   text-align: left;
 }
 .bio .bioCopy h2 .bioEmphasis {
@@ -368,7 +368,7 @@ body {
   position: relative;
   z-index: 100;
   text-align: center;
-  color: #b9baa3;
+  color: #b8b9a2;
 }
 .lineup .lineupContainer p .cartelMember {
   font-size: 1.25em;
@@ -456,7 +456,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 .donate .reviewsContainer .reviews .slider .source a {
-  color: #b9baa3;
+  color: #b8b9a2;
   transition: all 250ms ease;
 }
 .donate .reviewsContainer .reviews .slider .source a:hover {
@@ -664,7 +664,7 @@ body {
   }
 }
 .donate .reviewsContainer .reviewsImage {
-  border: 1px solid #b9baa3;
+  border: 1px solid #b8b9a2;
   width: 45%;
   height: 400px;
   align-self: center;
@@ -674,7 +674,7 @@ body {
   border-radius: 20px 0 0 20px;
 }
 .donate .donateTitle {
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Alegreya SC", serif;
   text-transform: uppercase;
   font-size: 2em;
@@ -706,13 +706,13 @@ body {
   margin: 0 auto;
 }
 .donate .donateReviews p {
-  border-left: 1px solid #b9baa3;
-  color: #b9baa3;
+  border-left: 1px solid #b8b9a2;
+  color: #b8b9a2;
 }
 .donate .donateReviews .donateLink {
   border-radius: 20px;
   text-decoration: none;
-  color: #b9baa3;
+  color: #b8b9a2;
   background: #a22c29;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -726,7 +726,7 @@ body {
 }
 .donate .donateReviews .donateLink:hover {
   animation: donateLinkHover 2s ease infinite;
-  box-shadow: 15px 15px #b9baa3;
+  box-shadow: 15px 15px #b8b9a2;
   color: #0a100d;
 }
 @keyframes donateLinkHover {
@@ -858,13 +858,13 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 .music .streamingFramesContainer .iframe .iframeDescription p {
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
   padding: 5px 0;
 }
 .music h2 {
-  color: #b9baa3;
+  color: #b8b9a2;
   border-bottom: 1px solid #a22c29;
   position: relative;
   left: 10%;
@@ -910,7 +910,7 @@ body {
 .music .cardContainer .interiors h3 {
   width: 100%;
   text-align: right;
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   display: inline-block;
@@ -937,14 +937,14 @@ body {
   padding: 5px 10px;
   text-decoration: none;
   background: #902923;
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
   transition: all 250ms ease;
   text-transform: uppercase;
 }
 .music .cardContainer .interiors .listenBuyButton:hover {
-  background: #b9baa3;
+  background: #b8b9a2;
   color: #a22c29;
 }
 .music .cardContainer .theShapeDistance {
@@ -973,7 +973,7 @@ body {
 .music .cardContainer .theShapeDistance h3 {
   width: 100%;
   text-align: right;
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   display: inline-block;
@@ -1000,14 +1000,14 @@ body {
   padding: 5px 10px;
   text-decoration: none;
   background: #902923;
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
   transition: all 250ms ease;
   text-transform: uppercase;
 }
 .music .cardContainer .theShapeDistance .listenBuyButton:hover {
-  background: #b9baa3;
+  background: #b8b9a2;
   color: #a22c29;
 }
 .music .cardContainer .aMillionAcresOfSky {
@@ -1036,7 +1036,7 @@ body {
 .music .cardContainer .aMillionAcresOfSky h3 {
   width: 100%;
   text-align: right;
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   display: inline-block;
@@ -1063,14 +1063,14 @@ body {
   padding: 5px 10px;
   text-decoration: none;
   background: #902923;
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1em;
   transition: all 250ms ease;
   text-transform: uppercase;
 }
 .music .cardContainer .aMillionAcresOfSky .listenBuyButton:hover {
-  background: #b9baa3;
+  background: #b8b9a2;
   color: #a22c29;
 }
 .music .albumCoverModalWindow {
@@ -1147,7 +1147,7 @@ body {
   justify-content: center;
 }
 .upcomingShows h2 {
-  color: #b9baa3;
+  color: #b8b9a2;
   position: relative;
   left: 10%;
   z-index: 100;
@@ -1167,7 +1167,7 @@ body {
 }
 
 .contactUs {
-  background-color: #b9baa3;
+  background-color: #b8b9a2;
   position: relative;
   margin-bottom: 100px;
 }
@@ -1184,25 +1184,24 @@ body {
   margin: 20px;
 }
 .contactUs .contactUsContentContainer {
-  display: flex;
-  justify-content: space-around;
   padding-bottom: 100px;
-  width: 90%;
+  width: 77%;
   height: 100%;
   margin: 0 auto;
 }
 .contactUs .contactUsContentContainer .info {
-  padding: 0 50px;
+  box-shadow: #b8b9a2 0 0 2px 2px, #d9dace -4px -4px 8px, #969876 4px 4px 8px;
+  padding: 25px 50px;
   border-radius: 10px;
-  background: rgba(243, 181, 12, 0.25);
+  background: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
+  margin-top: 25px;
 }
 .contactUs .contactUsContentContainer .info h3 {
-  font-family: "Alegreya SC", serif;
-  padding-bottom: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
   font-size: 3em;
   color: #a22c29;
-  text-align: center;
 }
 .contactUs .contactUsContentContainer .info address {
   padding: 20px 0;
@@ -1234,6 +1233,14 @@ body {
 }
 .contactUs .contactUsContentContainer .info a:hover {
   color: #0a100d;
+}
+.contactUs .contactUsContentContainer .info .infoContent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contactUs .contactUsContentContainer .info .infoContent address {
+  margin-right: 20px;
 }
 .contactUs .contactUsContentContainer .forms {
   padding: 0 50px;
@@ -1330,7 +1337,7 @@ body {
 .footer {
   height: 50vh;
   position: relative;
-  background: #b9baa3;
+  background: #b8b9a2;
   background: url("../images/footerbg10.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1375,7 +1382,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   bottom: 25%;
-  color: #b9baa3;
+  color: #b8b9a2;
   font-family: "Roboto Condensed", sans-serif;
 }
 .footer .footerTextContainer .footerText {
@@ -1402,14 +1409,14 @@ body {
   display: flex;
 }
 .footer .footerTextContainer .footerSocialMedia .fabContainer {
-  border: 1px solid #b9baa3;
+  border: 1px solid #b8b9a2;
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
-  color: #b9baa3;
+  color: #b8b9a2;
   transition: all 250ms ease;
 }
 .footer .footerTextContainer .footerSocialMedia .fabContainer:hover {
@@ -1426,14 +1433,14 @@ body {
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
-  color: #b9baa3;
+  color: #b8b9a2;
   font-size: 1.25em;
   padding: 10px;
   background: #902923;
   border-radius: 5px 5px 0 0;
 }
 .footer .backToTop a {
-  color: #b9baa3;
+  color: #b8b9a2;
   transition: all 250ms ease;
   position: relative;
   bottom: 0;
@@ -1559,15 +1566,6 @@ body {
     margin-bottom: 100px !important;
   }
 
-  .contactUsContentContainer {
-    flex-direction: column !important;
-  }
-  .contactUsContentContainer .info {
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-
   .donateTitle {
     font-size: 1.5em !important;
   }
@@ -1651,7 +1649,7 @@ body {
     position: absolute;
     height: 6px;
     width: 100%;
-    background: #b9baa3;
+    background: #b8b9a2;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -1786,7 +1784,7 @@ body {
     width: 75%;
     height: 3px;
     color: white;
-    background: #b9baa3;
+    background: #b8b9a2;
     position: absolute;
     transform-origin: center;
     top: 30%;
@@ -1798,7 +1796,7 @@ body {
     width: 75%;
     height: 3px;
     color: white;
-    background: #b9baa3;
+    background: #b8b9a2;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1810,7 +1808,7 @@ body {
     width: 75%;
     height: 3px;
     color: white;
-    background: #b9baa3;
+    background: #b8b9a2;
     position: absolute;
     top: 70%;
     left: 12.5%;
@@ -1855,6 +1853,18 @@ body {
   .streamingFramesContainer .streamingText h3 {
     display: inline-block;
   }
+
+  .info {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .info h3 {
+    text-align: center;
+  }
+
+  .infoContent {
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 650px) {
   .contactUsContentContainer .info {
@@ -1886,7 +1896,7 @@ body {
     flex-direction: column !important;
   }
   .donateReviews p {
-    border-top: 1px solid #b9baa3 !important;
+    border-top: 1px solid #b8b9a2 !important;
     border-left: none !important;
   }
 
