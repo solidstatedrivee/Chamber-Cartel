@@ -44,6 +44,7 @@
     //HTML | BODY
     body {
         overflow-x: hidden;
+        width: 100%;
         background: $lightGrey;
         opacity: 0;
         transition: opacity 500ms linear;
