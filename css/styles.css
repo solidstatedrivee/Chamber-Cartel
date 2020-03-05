@@ -822,8 +822,8 @@ body {
 }
 
 .music {
-  background: #0a100d !important;
-  background-image: url(../../images/asfalt-light.png) !important;
+  background: #0a100d;
+  background-image: url(../../images/asfalt-light.png);
   position: relative;
   padding-bottom: 100px;
 }
