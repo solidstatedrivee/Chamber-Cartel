@@ -2450,6 +2450,11 @@
     }
     
     @media only screen and (max-width: 500px) {
+        .mobileNavContent {
+            h2 {
+                color: black;
+            }
+        }
         .donateReviews {
             flex-direction: column !important;
             p {
