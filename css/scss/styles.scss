@@ -2466,8 +2466,14 @@
         }
         .albumCard {
             h3 {
+                // margin-right: 500px !important;
+                width: 85% !important;
+            }
+            .contributingMembers {
+                width: 85% !important;
+                margin: 0 auto;
+                // text-align: center !important;
                 // border: $devBorder;
-                font-size: 1em;
             }
         }
         .donateReviews {

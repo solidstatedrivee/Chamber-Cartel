@@ -1907,7 +1907,11 @@ body {
   }
 
   .albumCard h3 {
-    font-size: 1em;
+    width: 85% !important;
+  }
+  .albumCard .contributingMembers {
+    width: 85% !important;
+    margin: 0 auto;
   }
 
   .donateReviews {
