@@ -1906,6 +1906,10 @@ body {
     margin-bottom: 100px !important;
   }
 
+  .cardContainer {
+    padding: 0 !important;
+  }
+
   .albumCard h3 {
     width: 85% !important;
   }
