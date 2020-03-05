@@ -2309,6 +2309,7 @@
             width: 40px;
             height: 40px;
             background: $red;
+            opacity: 75%;
             display: none;
             // border-radius: 5px;
             // display: inline-block;
@@ -2323,6 +2324,7 @@
                 height: 100%;
                 position: relative;
                 cursor: pointer;
+                // opacity: 50%;
                 // border: $devBorder;
                 .topBar {
                     width: 75%;
@@ -2383,7 +2385,7 @@
                 opacity: 0;
             }
             to {
-                opacity: 1;
+                opacity: .75;
             }
         }
         @keyframes fadeOut {
@@ -2458,6 +2460,9 @@
         }
         .landing {
             background-size: 1500px !important;
+        }
+        .textCarouselContainer {
+            margin-bottom: 50px !important;
         }
         .donateReviews {
             flex-direction: column !important;
