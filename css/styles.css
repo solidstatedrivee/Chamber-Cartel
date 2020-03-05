@@ -1897,6 +1897,10 @@ body {
     font-size: 3em !important;
   }
 
+  .landing {
+    background-size: 500px !important;
+  }
+
   .donateReviews {
     flex-direction: column !important;
   }
