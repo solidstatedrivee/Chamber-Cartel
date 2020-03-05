@@ -2464,6 +2464,12 @@
         .textCarouselContainer {
             margin-bottom: 100px !important;
         }
+        .albumCard {
+            h3 {
+                border: $devBorder;
+                font-size: 1em;
+            }
+        }
         .donateReviews {
             flex-direction: column !important;
             p {

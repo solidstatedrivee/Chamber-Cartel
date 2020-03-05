@@ -1906,6 +1906,11 @@ body {
     margin-bottom: 100px !important;
   }
 
+  .albumCard h3 {
+    border: 1px solid white;
+    font-size: 1em;
+  }
+
   .donateReviews {
     flex-direction: column !important;
   }
