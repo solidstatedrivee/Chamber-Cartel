@@ -1920,6 +1920,10 @@ body {
     font-size: 0.75rem;
   }
 
+  .streamComponents {
+    width: 100% !important;
+  }
+
   .donateReviews {
     flex-direction: column !important;
   }
