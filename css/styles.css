@@ -1912,6 +1912,7 @@ body {
   .albumCard .contributingMembers {
     width: 85% !important;
     margin: 0 auto;
+    font-size: 0.75rem;
   }
 
   .donateReviews {
