@@ -1911,6 +1911,10 @@ body {
     padding: 0 !important;
   }
 
+  .albumCard .albumCardImage {
+    width: 85%;
+    margin: 0 auto;
+  }
   .albumCard h3 {
     width: 85% !important;
   }
