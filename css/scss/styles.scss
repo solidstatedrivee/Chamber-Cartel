@@ -2500,6 +2500,12 @@
         }
         .followUsContainer {
             flex-direction: column !important;
+            .followUsText {
+                padding: 0 !important;
+                p {
+                    padding: 0 !important;
+                }
+            }
         }
         .bio {
             .image {

@@ -1941,6 +1941,12 @@ body {
   .followUsContainer {
     flex-direction: column !important;
   }
+  .followUsContainer .followUsText {
+    padding: 0 !important;
+  }
+  .followUsContainer .followUsText p {
+    padding: 0 !important;
+  }
 
   .bio .image {
     width: 350px !important;
