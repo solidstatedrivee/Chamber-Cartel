@@ -1244,10 +1244,10 @@
                 .albumCardImageContainer {
                     width: 100%;
                     height: 350px;
-                    border: $devBorder;
+                    // border: $devBorder;
                     overflow: hidden;
                     .albumCardImage {
-                        border: $devBorder;
+                        // border: $devBorder;
                         height: inherit;
                         // background: url("../../images/interiors.jpg");
                         background-position: center;
