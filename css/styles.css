@@ -1956,6 +1956,9 @@ body {
     font-size: 1.5em !important;
   }
 
+  .lineup {
+    background-size: 1500px !important;
+  }
   .lineup .lineupContainer {
     grid-template-columns: 100% !important;
   }
