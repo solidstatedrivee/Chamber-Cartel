@@ -1976,6 +1976,9 @@ body {
   .contactUsContentContainer .info {
     width: 100% !important;
   }
+  .contactUsContentContainer .info h3 {
+    font-size: 2em !important;
+  }
 
   .footer .footerTextContainer {
     flex-direction: column !important;
