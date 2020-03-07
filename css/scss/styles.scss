@@ -313,6 +313,15 @@
                     border-radius: 10px;
                     transition: all 200ms ease;
                     cursor: pointer;
+                    a {
+                        color: $lightGrey;
+                        font-family: $serif;
+                    }
+                    a:hover {
+                        color: $red;
+                        background: $lightGrey;
+                        text-decoration: none;
+                    }
                 }
                 .listenDonateLinks:hover {
                     background: $lightGrey;

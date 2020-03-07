@@ -220,6 +220,15 @@ body {
   transition: all 200ms ease;
   cursor: pointer;
 }
+.landing .displayHeaderContainer .listenDonate .listenDonateLinks a {
+  color: #b8b9a2;
+  font-family: "Alegreya SC", serif;
+}
+.landing .displayHeaderContainer .listenDonate .listenDonateLinks a:hover {
+  color: #a22c29;
+  background: #b8b9a2;
+  text-decoration: none;
+}
 .landing .displayHeaderContainer .listenDonate .listenDonateLinks:hover {
   background: #b8b9a2;
   color: #902923;
