@@ -2500,10 +2500,18 @@
         }
         .followUsContainer {
             flex-direction: column !important;
+            padding: 10px;
             .followUsText {
                 padding: 0 !important;
                 p {
                     padding: 0 !important;
+                }
+            }
+            .followUsLinksContainer {
+                width: 45px !important;
+                height: 45px !important;
+                a {
+                    font-size: 1em !important;
                 }
             }
         }

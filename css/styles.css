@@ -1940,12 +1940,20 @@ body {
 
   .followUsContainer {
     flex-direction: column !important;
+    padding: 10px;
   }
   .followUsContainer .followUsText {
     padding: 0 !important;
   }
   .followUsContainer .followUsText p {
     padding: 0 !important;
+  }
+  .followUsContainer .followUsLinksContainer {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .followUsContainer .followUsLinksContainer a {
+    font-size: 1em !important;
   }
 
   .bio .image {
