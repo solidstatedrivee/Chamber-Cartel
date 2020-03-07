@@ -44,7 +44,7 @@
     //HTML | BODY
     body {
         overflow-x: hidden;
-        width: 100%;
+        max-width: 100%;
         background: $lightGrey;
         opacity: 0;
         transition: opacity 500ms linear;
@@ -2453,6 +2453,9 @@
     }
     
     @media only screen and (max-width: 500px) {
+        body {
+            overflow-x: hidden !important;
+        }
         .displayHeaderContainer {
             h1 {
                 // color: black;
@@ -2516,12 +2519,21 @@
             }
         }
         .bio {
+            // border: $devBorder;
             .image {
                 width: 350px !important;
                 height: 350px !important;
             }
             h2 {
                 font-size: 1.5em !important;
+            }
+            .bioCopy {
+                // border: $devBorder;
+                width: 90% !important;
+                h2 {
+                    // border: $devBorder;
+                    // width: 100vw;
+                }
             }
         }
         .lineup {

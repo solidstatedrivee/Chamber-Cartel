@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya+SC|Cinzel+Decorative|Roboto+Condensed&display=swap");
 body {
   overflow-x: hidden;
-  width: 100%;
+  max-width: 100%;
   background: #b8b9a2;
   opacity: 0;
   transition: opacity 500ms linear;
@@ -1893,6 +1893,10 @@ body {
   }
 }
 @media only screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
   .displayHeaderContainer h1 {
     font-size: 3em !important;
   }
@@ -1963,7 +1967,9 @@ body {
   .bio h2 {
     font-size: 1.5em !important;
   }
-
+  .bio .bioCopy {
+    width: 90% !important;
+  }
   .lineup {
     background: url(../images/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg);
     background-position: center;
