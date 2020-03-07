@@ -1980,6 +1980,9 @@ body {
     font-size: 2em !important;
   }
 
+  .footer {
+    height: 75vh;
+  }
   .footer .footerTextContainer {
     flex-direction: column !important;
   }
