@@ -2517,7 +2517,9 @@
             }
         }
         .lineup {
-            background-size: 3000px !important;
+            background: url(../images/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
             .lineupContainer {
                 grid-template-columns: 100% !important;
                 // border: $devBorder;
