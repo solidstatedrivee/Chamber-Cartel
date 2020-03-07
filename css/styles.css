@@ -1986,6 +1986,9 @@ body {
   .footer .footerTextContainer {
     flex-direction: column !important;
   }
+  .footer .footerTextContainer .footerText p:first-of-type {
+    width: 100vw;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2550,6 +2550,12 @@
             height: 75vh;
             .footerTextContainer {
                 flex-direction: column !important;
+                .footerText {
+                    p:first-of-type {
+                        // border: $devBorder;
+                        width: 100vw;
+                    }
+                }
             }
         }
     }
