@@ -1969,6 +1969,10 @@ body {
     transform: translateX(-50%) !important;
   }
 
+  .contactUs h2 {
+    font-size: 3em;
+  }
+
   .contactUsContentContainer .info {
     width: 100% !important;
   }
