@@ -2012,6 +2012,15 @@ body {
   .footer .footerTextContainer .footerText p:first-of-type {
     width: 100vw;
   }
+
+  .newsContainer h1 {
+    left: 5% !important;
+    font-size: 2em !important;
+  }
+  .newsContainer p {
+    left: 5% !important;
+    font-size: 0.75em !important;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
