@@ -2021,6 +2021,11 @@ body {
     left: 5% !important;
     font-size: 0.75em !important;
   }
+
+  #nav-icon3 {
+    top: 0 !important;
+    right: 0 !important;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
