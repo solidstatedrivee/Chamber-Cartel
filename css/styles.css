@@ -1220,6 +1220,7 @@ body {
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo {
   justify-self: center;
   align-self: center;
+  padding: 10px;
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo a > p {
   text-decoration: underline;
@@ -1231,6 +1232,15 @@ body {
   color: #b8b9a2 !important;
   transition: all 250ms ease;
   text-decoration: none;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .newsLink {
+  display: block;
+  text-align: center;
+  font-size: 0.75em;
+  color: #b8b9a2;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .newsLink:hover {
+  color: #d6d5c9;
 }
 
 .contactUs {

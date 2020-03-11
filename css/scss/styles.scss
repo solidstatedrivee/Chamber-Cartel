@@ -1654,6 +1654,7 @@
                     // border: $devBorder;
                     justify-self: center;
                     align-self: center;
+                    padding: 10px;
                     a>p {
                         text-decoration: underline;
                     }
@@ -1664,6 +1665,16 @@
                         color: $lightGrey !important;
                         transition: $hover;
                         text-decoration: none;
+                    }
+                    .newsLink {
+                        // border: $devBorder;
+                        display: block;
+                        text-align: center;
+                        font-size: .75em;
+                        color: $lightGrey;
+                    }
+                    .newsLink:hover {
+                        color: $lighterGrey;
                     }
                 }
             }
