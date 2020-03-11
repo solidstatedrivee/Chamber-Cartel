@@ -1146,7 +1146,7 @@ body {
 }
 
 .upcomingShows {
-  height: 50vh;
+  padding: 200px 0;
   background: #0a100d;
   background-image: url("../images/asfalt-light.png");
   background-position: top;
@@ -1169,10 +1169,68 @@ body {
   z-index: 100;
   color: white;
   font-family: "Roboto Condensed", sans-serif;
-  left: 10%;
-  padding: 25px;
   font-size: 1.25em;
   color: #a22c29;
+}
+.upcomingShows .upcomingShowsDescription {
+  background: rgba(214, 213, 201, 0.2);
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsPoster {
+  width: 50%;
+  height: 300px;
+  background-image: url("../../images/contemprarymusicfest2020.jpg");
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo {
+  margin-left: 3%;
+  display: flex;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsDate {
+  width: 100px;
+  background: #a22c29;
+  border-radius: 25px;
+  align-self: center;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsDate p {
+  padding: 0;
+  color: #b8b9a2;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsDate p:first-of-type {
+  background: #0a100d;
+  border-radius: 25px 25px 0 0;
+  color: #b8b9a2;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsDate p:nth-of-type(2) {
+  text-transform: uppercase;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsDate p:nth-of-type(3) {
+  font-size: 1.5em;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo p {
+  margin-bottom: 0;
+  text-align: center;
+  padding: 10px;
+  color: #f3b50c;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsLineup {
+  text-transform: uppercase;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo {
+  justify-self: center;
+  align-self: center;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo a > p {
+  text-decoration: underline;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo a:hover {
+  text-decoration: none;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo a > p:hover {
+  color: #b8b9a2 !important;
+  transition: all 250ms ease;
+  text-decoration: none;
 }
 
 .contactUs {
@@ -1979,6 +2037,7 @@ body {
   .bio .bioCopy {
     width: 90% !important;
   }
+
   .lineup {
     background: url(../images/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg);
     background-position: center;
@@ -2025,6 +2084,19 @@ body {
   #nav-icon3 {
     top: 0 !important;
     right: 0 !important;
+  }
+
+  .upcomingShowsDescription {
+    flex-direction: column;
+  }
+  .upcomingShowsDescription .upcomingShowsPoster {
+    width: 100% !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .upcomingShowsDescription .upcomingShowsDate {
+    font-size: 0.75rem;
   }
 }
 
