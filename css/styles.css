@@ -1519,7 +1519,7 @@ body {
 }
 
 .newsAndUpdates {
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
   background-image: url("../images/billy-huynh-W8KTS-mhFUE-unsplash.jpg") !important;
   background-size: cover;
@@ -1554,8 +1554,42 @@ body {
   font-size: 1.75em;
   display: inline-block;
   position: relative;
-  left: 10%;
   margin-top: 25px;
+}
+.newsAndUpdates .newsContainerNews {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 10px;
+}
+.newsAndUpdates .newsContainerNews h2 {
+  color: #f3b50c;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+.newsAndUpdates .newsContainerNews img {
+  display: block;
+  margin: 0 auto;
+}
+.newsAndUpdates .newsContainerNews .newsContainerDate {
+  width: 80%;
+  font-size: 0.75em;
+  margin: 0 auto;
+}
+.newsAndUpdates .newsContainerNews .newsContainerDate a > p {
+  text-decoration: underline;
+}
+.newsAndUpdates .newsContainerNews .newsContainerDate a > p:hover {
+  color: #b8b9a2;
+  transition: all 250ms ease;
+}
+.newsAndUpdates .newsContainerNews .newsContainerDescription {
+  color: #b8b9a2;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.25em;
 }
 
 @media only screen and (max-width: 1225px) {

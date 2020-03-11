@@ -2066,7 +2066,7 @@
     
     //NEWS PAGE
     .newsAndUpdates {
-        height: 100vh;
+        height: 200vh;
         width: 100vw;
         background-image: url("../images/billy-huynh-W8KTS-mhFUE-unsplash.jpg") !important;
         background-size: cover;
@@ -2106,8 +2106,50 @@
                 font-size: 1.75em;
                 display: inline-block;
                 position: relative;
-                left: 10%;
+                // left: 10%;
                 margin-top: 25px;
+            }
+        }
+        .newsContainerNews {
+            // border: $devBorder;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 25px;
+            padding: 10px;
+            h2 {
+                color: $accent;
+                font-family: $sansSerif;
+                // border: $devBorder;
+                text-align: center;
+                font-style: italic;
+            }
+            img {
+                // border: $devBorder;
+                display: block;
+                margin: 0 auto;
+            }
+            .newsContainerDate {
+                // border: $devBorder;
+                width: 80%;
+                font-size: .75em;
+                margin: 0 auto;
+                // padding-left: 25%;
+                // padding: 0;
+                a>p {
+                    text-decoration: underline;
+                }
+                a>p:hover {
+                    color: $lightGrey;
+                    transition: $hover;
+                }
+            }
+            .newsContainerDescription {
+                // border: $devBorder;
+                color: $lightGrey;
+                font-family: $sansSerif;
+                width: 80%;
+                margin: 0 auto;
+                font-size: 1.25em;
             }
         }
     }
