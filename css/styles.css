@@ -1557,7 +1557,6 @@ body {
   margin-top: 25px;
 }
 .newsAndUpdates .newsContainerNews {
-  border: 1px solid white;
   width: 80%;
   margin: 0 auto;
   margin-top: 25px;
@@ -2156,7 +2155,6 @@ body {
     font-size: 1em !important;
   }
   .newsContainerNews .newsContainerDescription {
-    border: 1px solid white;
     width: 100% !important;
     font-size: 1em !important;
   }
