@@ -2111,7 +2111,7 @@
             }
         }
         .newsContainerNews {
-            // border: $devBorder;
+            border: $devBorder;
             width: 80%;
             margin: 0 auto;
             margin-top: 25px;
@@ -2750,6 +2750,26 @@
                     // border: $devBorder;
                     padding: 5px !important;
                 }
+            }
+        }
+        .newsContainerNews {
+            h2 {
+                font-size: 1.5em;
+            }
+            img {
+                // width: 100vw !important;
+                // overflow: hidden !important;
+                width: 200px;
+            }
+            .newsContainerDate {
+                // border: $devBorder;
+                width: 100% !important;
+                font-size: 1em !important;
+            }
+            .newsContainerDescription {
+                border: $devBorder;
+                width: 100% !important;
+                font-size: 1em !important;
             }
         }
     }
