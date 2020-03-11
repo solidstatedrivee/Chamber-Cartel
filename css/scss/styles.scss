@@ -2676,6 +2676,10 @@
             top: 0 !important;
             right: 0 !important;
         }
+        .upcomingShowsInfo {
+            // border: $devBorder;
+            margin-left: 0 !important;
+        }
         .upcomingShowsDescription {
             flex-direction: column;
             .upcomingShowsPoster {
@@ -2687,11 +2691,23 @@
             }
             .upcomingShowsDate {
                 // border: $devBorder;
+                margin: 5px;
                 // width: 75% !important;
                 font-size: .75rem;
+                // flex-basis: 75% !important;
+                p {
+                    // border: $devBorder;
+                    padding: 5px !important;
+                }
             }
             .upcomingShowsExtraInfo {
+                // border: $devBorder;
+                // padding: 0 !important;
                 // width: 50%;
+                p {
+                    // border: $devBorder;
+                    padding: 5px !important;
+                }
             }
         }
     }

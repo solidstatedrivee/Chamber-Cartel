@@ -2086,6 +2086,10 @@ body {
     right: 0 !important;
   }
 
+  .upcomingShowsInfo {
+    margin-left: 0 !important;
+  }
+
   .upcomingShowsDescription {
     flex-direction: column;
   }
@@ -2096,7 +2100,14 @@ body {
     background-position: center;
   }
   .upcomingShowsDescription .upcomingShowsDate {
+    margin: 5px;
     font-size: 0.75rem;
+  }
+  .upcomingShowsDescription .upcomingShowsDate p {
+    padding: 5px !important;
+  }
+  .upcomingShowsDescription .upcomingShowsExtraInfo p {
+    padding: 5px !important;
   }
 }
 
