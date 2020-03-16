@@ -2333,6 +2333,9 @@ body {
   .gallery .galleryItem {
     margin: 10px 0;
   }
+  .gallery .galleryItem:hover::after {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

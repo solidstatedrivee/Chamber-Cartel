@@ -2969,5 +2969,8 @@
             .galleryItem {
                 margin: 10px 0;
             }
+            .galleryItem:hover::after {
+                display: none !important;
+            }
         }
     }
