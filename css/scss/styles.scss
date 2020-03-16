@@ -2326,6 +2326,39 @@
     }
     
     @media only screen and (max-width: 950px) {
+        .gallery {
+            .galleryItem1 {}
+            .galleryItem2 {
+                grid-column-start: 4;
+                grid-column-end: 6;
+                grid-row-start: 1;
+                grid-row-end: 7;
+            }
+            .galleryItem3 {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 4;
+                grid-row-end: 7;
+            }
+            .galleryItem4 {
+                grid-column-start: 6;
+                grid-column-end: 9;
+                grid-row-start: 6;
+                grid-row-end: 9;
+            }
+            .galleryItem5 {
+                grid-column-start: 1;
+                grid-column-end: 6;
+                grid-row-start: 7;
+                grid-row-end: 9;
+            }
+            .galleryItem6 {
+                grid-column-start: 6;
+                grid-column-end: 9;
+                grid-row-start: 1;
+                grid-row-end: 6;
+            }
+        }
         .latestRelease {
             display: none !important;
         }
