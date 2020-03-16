@@ -2330,6 +2330,9 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .gallery .galleryItem {
+    margin: 10px 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

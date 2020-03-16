@@ -2966,5 +2966,8 @@
         .gallery {
             display: flex;
             flex-direction: column;
+            .galleryItem {
+                margin: 10px 0;
+            }
         }
     }
