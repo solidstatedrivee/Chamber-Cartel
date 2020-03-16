@@ -288,4 +288,25 @@ $(function() {
         return false;
     });
 
+    //populate the image gallery
+    for (let i = 1; i <= 6; i++) {
+        $(".gallery").append(`<figure class="galleryItem galleryItem${i}"><img src="images/gallery images/img${i}.jpg" class="galleryImage"></figure>`)
+    }
+
+    //create modal for gallery images
+    let getImageGalleryItem = document.getElementsByClassName("galleryItem");
+    let getGalleryImageModalContainer = document.getElementsByClassName("galleryImageModalContainer")[0];
+    let getCloseModalGallery = document.getElementsByClassName("closeModalGallery")[0];
+    for (let i = 0; i < getImageGalleryItem.length; i++) {
+        getImageGalleryItem[i].addEventListener("click", function() {
+            $(".galleryImageModalContainer").css("display", "flex");
+            $(".galleryImageModal").css("background-image", `url("${this.firstChild.attributes[0].nodeValue}")`)
+        })
+    }
+    getCloseModalGallery.addEventListener("click", function() {
+        $(".galleryImageModalContainer").fadeOut("fast");
+    })
+    getGalleryImageModalContainer.addEventListener("click", function() {
+        $(".galleryImageModalContainer").fadeOut("fast");
+    })
 })

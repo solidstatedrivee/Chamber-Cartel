@@ -211,9 +211,10 @@ pre {
     overflow: auto;
 }
 
-figure {
+
+/* figure {
     margin: 0 0 1rem;
-}
+} */
 
 img {
     vertical-align: middle;
