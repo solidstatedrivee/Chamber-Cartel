@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya+SC|Cinzel+Decorative|Roboto+Condensed&display=swap");
 body {
   overflow-x: hidden;
-  max-width: 100%;
+  width: 100vw;
   background: #b8b9a2;
   opacity: 0;
   transition: opacity 500ms linear;
