@@ -2331,7 +2331,7 @@ body {
     flex-direction: column;
   }
   .gallery .galleryItem {
-    margin: 10px 0;
+    margin: 10px 0 !important;
   }
   .gallery .galleryItem:hover::after {
     display: none !important;
