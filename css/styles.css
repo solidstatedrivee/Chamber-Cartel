@@ -1305,6 +1305,9 @@ body {
   display: flex;
   padding: 25px;
 }
+.upcomingShows .upcomingShowsDescription p {
+  color: #d6d5c9;
+}
 .upcomingShows .upcomingShowsDescription .upcomingShowsPoster {
   width: 50%;
   height: 300px;

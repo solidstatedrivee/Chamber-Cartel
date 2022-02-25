@@ -1749,6 +1749,9 @@ body {
     display: flex;
     padding: 25px;
     // justify-content: space-evenly;
+    p {
+      color: $lighterGrey;
+    }
     .upcomingShowsPoster {
       // border: $devBorder;
       width: 50%;
