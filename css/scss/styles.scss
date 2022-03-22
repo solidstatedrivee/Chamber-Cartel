@@ -1754,17 +1754,17 @@ body {
     }
     .upcomingShowsPoster {
       // border: $devBorder;
-      width: 50%;
+      // width: 50%;
       // height: 100%;
-      height: 300px;
+      // height: 300px;
       // height: 25%;
       // width: 25%;
-      background-image: url("../../images/contemprarymusicfest2020.jpg");
+      // background-image: url("../../images/SoundsNOW-2022-Poster.jpeg");
     }
     .upcomingShowsInfo {
       // border: $devBorder;
       margin-left: 3%;
-      display: flex;
+      // display: flex;
       // flex-direction: column;
       // justify-content: center;
       .month {
@@ -1776,6 +1776,9 @@ body {
         background: $red;
         border-radius: 25px;
         align-self: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
         // display: inline-block !important;
         p {
           // border: $devBorder;
@@ -1804,6 +1807,7 @@ body {
       }
       .upcomingShowsLineup {
         text-transform: uppercase;
+        font-size: 2em;
       }
       .upcomingShowsExtraInfo {
         // border: $devBorder;
@@ -1830,6 +1834,13 @@ body {
         }
         .newsLink:hover {
           color: $lighterGrey;
+        }
+
+        .upcomingShowsCopy {
+          ul {
+            color: $accent;
+            font-family: $sansSerif;
+          }
         }
       }
     }

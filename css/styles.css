@@ -1308,20 +1308,17 @@ body {
 .upcomingShows .upcomingShowsDescription p {
   color: #d6d5c9;
 }
-.upcomingShows .upcomingShowsDescription .upcomingShowsPoster {
-  width: 50%;
-  height: 300px;
-  background-image: url("../../images/contemprarymusicfest2020.jpg");
-}
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo {
   margin-left: 3%;
-  display: flex;
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsDate {
   width: 100px;
   background: #a22c29;
   border-radius: 25px;
   align-self: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsDate p {
   padding: 0;
@@ -1346,6 +1343,7 @@ body {
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsLineup {
   text-transform: uppercase;
+  font-size: 2em;
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo {
   justify-self: center;
@@ -1371,6 +1369,10 @@ body {
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .newsLink:hover {
   color: #d6d5c9;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .upcomingShowsCopy ul {
+  color: #f3b50c;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .contactUs {
