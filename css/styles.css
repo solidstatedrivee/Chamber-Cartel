@@ -129,7 +129,7 @@ body {
 }
 .landing .fixedNav .fixedNavContainer {
   display: flex;
-  padding: 5px;
+  padding: 10px;
   justify-content: space-around;
   align-items: center;
 }
@@ -513,6 +513,40 @@ body {
 }
 .lineup .lineupContainer p:nth-of-type(2n + 1) span {
   color: #b42522;
+}
+.lineup .boardMembersContainer {
+  position: relative;
+  z-index: 100;
+  width: 75%;
+  padding: 25px 0;
+  margin-top: 25px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.lineup .boardMembersContainer h3 {
+  text-align: center;
+  font-size: 2em;
+  color: #d6d5c9;
+}
+.lineup .boardMembersContainer ul {
+  padding: 0;
+  margin: 0;
+}
+.lineup .boardMembersContainer ul li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.25em;
+  padding: 5px 0;
+  color: #d6d5c9;
+  text-transform: uppercase;
+}
+.lineup .boardMembersContainer ul span {
+  color: #a22c29;
+  font-size: 0.75em;
+  text-transform: capitalize;
 }
 
 .lineup::after {
@@ -1272,7 +1306,7 @@ body {
 }
 
 .upcomingShows {
-  padding: 200px 0;
+  padding-bottom: 200px;
   background: #0a100d;
   background-image: url("../images/asfalt-light.png");
   background-position: top;
@@ -1541,6 +1575,45 @@ body {
 .contactUs .contactUsContentContainer .forms form fieldset .sendContainer .sendButton:hover {
   color: #f3b50c;
   opacity: 0.9;
+}
+.contactUs .contactUsContentContainer .newsletter #mc_embed_signup {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.contactUs .contactUsContentContainer .newsletter #mc_embed_signup form {
+  padding: 25px;
+  color: #d6d5c9;
+}
+.contactUs .contactUsContentContainer .newsletter #mc_embed_signup form h2 {
+  left: 0;
+  text-align: center;
+  color: #d6d5c9;
+  border-bottom: 1px solid #b8b9a2;
+}
+.contactUs .contactUsContentContainer .newsletter #mc_embed_signup form .mc-field-group {
+  padding: 10px 0;
+}
+.contactUs .contactUsContentContainer .newsletter #mc_embed_signup form .mc-field-group input {
+  border: 1px solid #b8b9a2;
+  padding: 10px;
+  color: #b8b9a2;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.contactUs .contactUsContentContainer .newsletter #mc_embed_signup form .mc-field-group select {
+  color: #b8b9a2;
+}
+.contactUs .contactUsContentContainer .newsletter #mc_embed_signup form .mc-field-group .button {
+  border: 1px solid red;
+}
+.contactUs .contactUsContentContainer .newsletter #mc_embed_signup form #mc-embedded-subscribe {
+  padding: 10px 25px;
+  color: #d6d5c9;
+  background: black;
+  margin: 25px 0;
 }
 
 .footer {

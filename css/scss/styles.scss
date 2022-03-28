@@ -196,7 +196,7 @@ body {
       // border: 1px solid blue;
       display: flex;
       // padding: 0;
-      padding: 5px;
+      padding: 10px;
       justify-content: space-around;
       align-items: center;
       .fixedNavGroupName {
@@ -672,6 +672,41 @@ body {
     p:nth-of-type(2n + 1) span {
       // border: $devBorder;
       color: rgb(180, 37, 34);
+    }
+  }
+  .boardMembersContainer {
+    position: relative;
+    z-index: 100;
+    width: 75%;
+    padding: 25px 0;
+    margin-top: 25px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    h3 {
+      text-align: center;
+      font-size: 2em;
+      color: $lighterGrey;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        list-style-type: none;
+        text-align: center;
+        font-size: 1.25em;
+        padding: 5px 0;
+        color: $lighterGrey;
+        text-transform: uppercase;
+      }
+
+      span {
+        color: $red;
+        font-size: 0.75em;
+        text-transform: capitalize;
+      }
     }
   }
 }
@@ -1708,7 +1743,7 @@ body {
 
 .upcomingShows {
   // border: $devBorder;
-  padding: 200px 0;
+  padding-bottom: 200px;
   // height: 50vh;
   // background: url("../images/D_MPSTERSweb7-1170x600.jpg");
   background: $darkGrey;
@@ -2082,6 +2117,47 @@ body {
               color: $accent;
               opacity: 0.9;
             }
+          }
+        }
+      }
+    }
+    .newsletter {
+      #mc_embed_signup {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 25px;
+        border-radius: 10px;
+        form {
+          padding: 25px;
+          color: $lighterGrey;
+          h2 {
+            left: 0;
+            text-align: center;
+            color: $lighterGrey;
+            border-bottom: 1px solid $lightGrey;
+          }
+          .mc-field-group {
+            padding: 10px 0;
+            input {
+              border: 1px solid $lightGrey;
+              padding: 10px;
+              color: $lightGrey;
+              border-radius: 5px;
+              margin-left: 10px;
+            }
+            select {
+              color: $lightGrey;
+            }
+            .button {
+              border: 1px solid red;
+            }
+          }
+          #mc-embedded-subscribe {
+            padding: 10px 25px;
+            color: $lighterGrey;
+            background: black;
+            margin: 25px 0;
           }
         }
       }
