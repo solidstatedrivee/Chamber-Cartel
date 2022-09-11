@@ -12,7 +12,15 @@
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C7R1Q30219"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-C7R1Q30219');
+</script>
 <body>
   <header class="landing" id="landing">
     <div class="landingNav">
