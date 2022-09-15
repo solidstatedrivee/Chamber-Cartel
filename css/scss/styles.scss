@@ -1091,6 +1091,7 @@ body {
       // border: $devBorder;
       border-left: 1px solid $lightGrey;
       color: $lightGrey;
+      text-align: left;
     }
     .donateLink {
       // border: 3px solid $red;
@@ -1880,6 +1881,12 @@ body {
             color: $accent;
             font-family: $sansSerif;
           }
+        }
+
+        .timber {
+          font-size: 4em;
+          padding: 0;
+          margin-bottom: 25px;
         }
       }
     }

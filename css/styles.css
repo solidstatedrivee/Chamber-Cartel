@@ -878,6 +878,7 @@ body {
 .donate .donateReviews p {
   border-left: 1px solid #b8b9a2;
   color: #b8b9a2;
+  text-align: left;
 }
 .donate .donateReviews .donateLink {
   border-radius: 20px;
@@ -1415,6 +1416,11 @@ body {
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .upcomingShowsCopy ul {
   color: #f3b50c;
   font-family: "Roboto Condensed", sans-serif;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .timber {
+  font-size: 4em;
+  padding: 0;
+  margin-bottom: 25px;
 }
 
 .contactUs {
