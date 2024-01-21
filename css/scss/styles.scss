@@ -42,6 +42,15 @@ $hover: all 250ms ease;
 }
 
 //HTML | BODY
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+
+  p.brandingLogo {
+    display: none;
+  }
+}
 body {
   overflow-x: hidden;
   // max-width: 100%;
@@ -1804,7 +1813,7 @@ body {
       background-repeat: no-repeat;
       padding-bottom: 25px;
       img {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         display: block;
       }
