@@ -858,7 +858,7 @@ body {
 }
 .donate .textCarouselContainer {
   width: 100%;
-  height: 450px;
+  height: 385px;
 }
 .donate p {
   color: #f3b50c;
@@ -894,6 +894,9 @@ body {
   padding: 25px 50px;
   transition: all 250ms ease;
   box-shadow: 0px 0px #a22c29;
+}
+.donate .donateReviews .donateLink:first-of-type {
+  margin: 2.5% 5%;
 }
 .donate .donateReviews .donateLink:hover {
   animation: donateLinkHover 2s ease infinite;
@@ -1338,21 +1341,26 @@ body {
   width: 80%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding: 25px;
 }
 .upcomingShows .upcomingShowsDescription p {
   color: #d6d5c9;
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsPoster {
-  width: 40%;
-  background-image: url("https://raw.githubusercontent.com/solidstatedrivee/Chamber-Cartel/master/images/BF%20930%20Poster%5B11373%5D.png");
+  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  padding-bottom: 25px;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsPoster img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo {
   margin-left: 3%;
-  width: 60%;
+  width: 100%;
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsDate {
   width: 100px;
@@ -1396,6 +1404,9 @@ body {
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo a > p {
   text-decoration: underline;
 }
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo a > p.location {
+  font-size: 1.5em;
+}
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo a:hover {
   text-decoration: none;
 }
@@ -1416,6 +1427,9 @@ body {
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .upcomingShowsCopy ul {
   color: #f3b50c;
   font-family: "Roboto Condensed", sans-serif;
+}
+.upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .upcomingShowsCopy a {
+  text-decoration: underline;
 }
 .upcomingShows .upcomingShowsDescription .upcomingShowsInfo .upcomingShowsExtraInfo .timber {
   font-size: 4em;
@@ -2231,6 +2245,12 @@ body {
 @media only screen and (max-width: 650px) {
   .contactUsContentContainer .info {
     width: 100% !important;
+  }
+  .contactUsContentContainer .newsletter #mc_embed_signup {
+    width: 100%;
+  }
+  .contactUsContentContainer .newsletter #mc_embed_signup form h2 {
+    font-size: 3em;
   }
 }
 @media only screen and (max-width: 575px) {

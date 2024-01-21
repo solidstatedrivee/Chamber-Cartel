@@ -1,7 +1,7 @@
 $(function () {
     let cartel = [{
         member: "Caleb Herron",
-        role: "President, Percussion"
+        role: "Percussion"
     },
     {
         member: "Laura Gordy",
