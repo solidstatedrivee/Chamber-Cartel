@@ -1318,6 +1318,7 @@ body {
 }
 
 .upcomingShows {
+  padding-top: 5%;
   padding-bottom: 200px;
   background: #0a100d;
   background-image: url("../images/asfalt-light.png");
@@ -1957,6 +1958,9 @@ body {
     font-size: 1em !important;
   }
 
+  .upcomingShows {
+    padding-top: 10%;
+  }
   .upcomingShows h2 {
     font-size: 2em !important;
     padding: 0 25px !important;
